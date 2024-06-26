@@ -1,0 +1,16 @@
+/*
+Custom Css
+*/
+
+.rounded-circle{
+    border-radius: 10% !important;
+}
+.img-fluid{
+    border-radius: 10px;
+}
+#resalto{
+    font-weight: 500 !important;
+}
+.colorblue{
+    color: rgb(6, 109, 150) !important;
+}
