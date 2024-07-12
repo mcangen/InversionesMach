@@ -8,9 +8,22 @@ Custom Css
 .img-fluid{
     border-radius: 10px;
 }
-#resalto{
+.resalto{
     font-weight: 500 !important;
+    
+}
+.resalto:hover{
+    color: rgb(6, 109, 150) !important;
 }
 .colorblue{
     color: rgb(6, 109, 150) !important;
+}
+.text-success{
+    color: rgb(6, 109, 150) !important;
+}
+.containerabouts:hover{
+    background-color: rgb(6, 109, 150) !important;
+}
+.centercontainer{
+    margin: 0 auto 0 auto;
 }
