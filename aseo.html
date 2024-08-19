@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>InversionesMach</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="./assets/img/news/LOGO.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/news/LOGO.jpg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:inversiones.mach24@gmail.com">inversiones.mach24@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:30097144880">3053309966</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://www.instagram.com/inversionesmach/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <!-- <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand colorblue text-success logo h1 align-self-center" href="index.html">
+                Inversiones Mach
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link resalto" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link resalto" href="about.html">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link resalto" href="contact.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>-->
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Content -->
+    <div class="container py-5">
+        <div class="row">
+
+            <!--<div class="col-lg-3">
+                <h1 class="h2 pb-4">Categories</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Gender
+                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul class="collapse show list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Men</a></li>
+                            <li><a class="text-decoration-none" href="#">Women</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Sale
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseTwo" class="collapse list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Sport</a></li>
+                            <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Product
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Bag</a></li>
+                            <li><a class="text-decoration-none" href="#">Sweather</a></li>
+                            <li><a class="text-decoration-none" href="#">Sunglass</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline shop-top-menu pb-3 pt-1">
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 pb-4">
+                        <div class="d-flex">
+                            <select class="form-control">
+                                <option>Featured</option>
+                                <option>A to Z</option>
+                                <option>Item</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A001.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">DETERGENTE LIQUIDO
+                                    AZULITO GALON</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A001  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Detergente multiusos azulito,
+                                    molécula pura y antidepositante.
+                                    Blanquea la ropa, despercude
+                                    paredes , limpieza de pisos
+                                    Presentaciones: 1000 ml, 3800 ml,
+                                    cuñete 20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A002.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">LIMPIAVIDRIOS
+                                    IMCOFOT
+                                    </h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A002  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Retira la mugre y polvo que se
+                                    acumula en vidrios y espejos, no
+                                    deja huella y procura una alta
+                                    transparencia.
+                                    Presentaciones: 500 c.c., 1000
+                                    c.c. 3800 c.c cuñete 20lts
+                                    D</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A003.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">DESENGRASANTE
+                                    IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A003  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Limpiador fuertemente alcalino, ideal
+                                    para removersuciedad difícil,
+                                    especialmente para sedimento
+                                    orgánicos, grasas pesadas, grasas
+                                    pegadas. ideal para uso de motores y
+                                    trafico alto
+                                    Presentaciones: 500, 1000 c.c. con
+                                    pistola, y cuñete 20lts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A004.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">AMONIO CUATERNARIO
+                                </h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A004  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Amonio de 4 y 5 generación Se
+                                    emplea en la limpieza y
+                                    desinfección de hospitales, casas,
+                                    de uso personal y empresarial
+                                    elimina el 99%.
+                                    Presentaciones: 3800ml – cuñete
+                                    20 ltrs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A005.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">JABON ANTIBACTERIAL
+                                    IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A005  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Jabón ANTIBACTERIAL con un agente
+                                    humectante con vitamina E y glicerina,
+                                    con diferentes aromas cuidando el PH
+                                    de tu piel.
+                                    Fragancias: frutos rojos, avena, talco,
+                                    maracuyá, coco, neutro.
+                                    Presentación: 500, 3800 c.c / cuñete
+                                    20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A006.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">GEL ANTIBACTERIAL
+                                </h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A006  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Se emplea en la limpieza y
+                                    desinfección de manos, contiene
+                                    microesferas de vitamina que
+                                    humecta la piel. De uso personal y
+                                    empresarial.
+                                    Presentaciones: 500 c.c., 1000 c.c.
+                                    3800ml, cuñete 20 litrs
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A007.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">AMBIENTADOR</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A007  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Único con desinfectante de 5
+                                    generación con un doble efecto,
+                                    desodoriza y deja un agradable
+                                    aroma a fragancia natural,
+                                    producto biodegradable.
+                                    Presentaciones: 500cc / 3800cc/
+                                    cuñete 20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A008.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">BLANQUEADOR
+                                    IMCOFOT
+                                    </h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A008  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Blanqueador 5.25% y 13%
+                                    Desinfecta, despercude paredes ,
+                                    lavado pisos
+                                    Presentaciones: 1000, 3800ml,
+                                    cuñete 20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A009.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">CREOLINA IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A009  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Desinfectante natural para uso
+                                    principalmente en limpieza y
+                                    desinfección de pisos, galpones,
+                                    gallineros, criaderos y en general en
+                                    todos aquellos lugares propensos a la
+                                    proliferación de microorganismos,
+                                    olores desagradables..
+                                    Presentaciones:
+                                    800 ml y cuñete 20lts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A010.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">VARSOL IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A010  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Varsol Imcofot , producto
+                                    biodegradable para uso industrial
+                                    Presentaciones: 3800cc/ cuñete
+                                    20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A011.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">LIMPIADOR
+                                    DESINFECTANTE</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A011  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Se emplea en la limpieza de pisos
+                                    de cualquier calidad, baños, y
+                                    otrassuperficie desinfectando y
+                                    dejando una fragancia agradable
+                                    con partículas de 5 generación
+                                    Presentaciones: 3800 ml y cuñete
+                                    20lts
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A012.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">LAVALOZA LIQUIDO</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A012  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Lavaloza liquido olor agradable,
+                                    con alto poder desengrasante
+                                    elaborado con tenso activos
+                                    biodegradables. Ideal para pieles
+                                    sensibles y producto libre de
+                                    parabenos. Presentaciones: 500cc
+                                    , 1000 cc, 3800cc, cuñete 20
+                                    Litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A013.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">SUAVIZANTE IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A013  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>formula con su alto porcentaje con
+                                    microcápsulas de suavidad, aviva
+                                    el color de las prendas y agradable
+                                    y aroma. Presentación:
+                                    3800cc, Cuñete 20 litros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A014.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">DETERGENTE ROPA</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A014  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>El detergente líquido para ropa
+                                    IMCOFOT contiene
+                                    antidepositantes que aísla la
+                                    mugre de la ropa y no permite que
+                                    se vuelva a adherir. Mantiene su
+                                    color libre de parabenos
+                                    Presentaciones: 3800cc/ Cuñete
+                                    20 litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A015.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">DESMANCHADOR
+                                    ROPA COLOR</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A015  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Es un producto agente blanqueador que
+                                    no ataca las fibras y realza el color de las
+                                    prendas por su contenido de
+                                    ABRILLANTADOR óptico para eliminar las
+                                    manchas más difíciles presentadas en
+                                    cualquier tipo de prenda.
+                                    Presentaciones: 3800cc/ Cuñete 20 litros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A016.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">ALCOHOL
+                                    INDUSTRIAL
+                                    </h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A016  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>El alcohol industrial se puede
+                                    limpiar, equipos de oficina en sus
+                                    partes internas. También ideal
+                                    para ayudar en el proceso de
+                                    limpieza de superficies vítreas
+                                    acelerando el proceso de secado
+                                    de las mismas y dejando una
+                                    apariencia de traslucidez óptima
+                                    Presentaciones: 3800ml y cuñete
+                                    20 litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A017.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">ALCOHOL
+                                    GLICERINADO</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A017  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>De uso externo, para lavado en
+                                    seco y desinfección de manos del
+                                    personal médico y de enfermería,
+                                    en Hospitales, Clínicas y Centros
+                                    de salud.
+                                    Para limpieza y desinfección de
+                                    áreas de función para la aplicación
+                                    de medicamentos inyectables.
+                                    Presentaciones: 3800ml y cuñete
+                                    20 litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A018.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">ALCOHOL
+                                    ANTISEPTICO</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A019  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>se utiliza para la desinfección de la
+                                    piel, utensilios, equipo y material de
+                                    laboratorio. (Sirve también en la
+                                    antisepsia cutánea). Útil para la
+                                    desinfección en clínicas, hospitales,
+                                    instituciones, industrias alimenticias,
+                                    agroindustrias, etc.
+                                    Presentaciones: 3800ml y cuñete 20
+                                    litros.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A019.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">SELLADOR IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A019  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Mezcla de polímeros de alta
+                                    resistencia, deja una película brillante
+                                    que protege la superficie de diversos
+                                    materiales como granito, mármol,
+                                    baldosastratadas.
+                                    Presentación: 3800cc, Cuñete 20 litros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A020.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">CERA AUTOBRILLANTE</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A020  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Mezclas de polímeros acrílicos de
+                                    alta resistencia y brillo,
+                                    antideslizante emulsionada.
+                                    película brillante que no requiere
+                                    brilladora.
+                                    Presentaciones: 3800cc/ Cuñete
+                                    20 litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A021.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">REMOVEDOR DE
+                                    CERA</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A021  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Producto que remueve la cera de sus
+                                    piso, no ataca ninguna superficie de sus
+                                    pisos desmancha sobre pisos de mármol,
+                                    granito.
+                                    Presentaciones: 3800cc/ Cuñete 20 litros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A022.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h3 text-decoration-none">LUSTRAMUEBLES
+                                    IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A022  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Emulsión de consistencia
+                                    cremosa diseñado para
+                                    limpiar con suavidad para
+                                    maderas, dejando una
+                                    película brillante.
+                                    Presentación: 500, 1000
+                                    3800cc, Cuñete 20 litros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/Aseo/A023.jfif">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <h3 class="h3 text-decoration-none">SILICONA IMCOFOT</h3>
+                                <p class="codeproduct"> <b class="colorblue">Codigo: </b>A023  </p>
+                                <p class="unitpresentation"><b class="colorblue"></b>Ideal para proteger toda
+                                    superficie, ayuda a restaurar
+                                    toda clase de superficie
+                                    Presentaciones: 500, 1000,
+                                    3800cc/ Cuñete 20 litros.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 colorblue text-success border-bottom pb-3 border-light logo">Inversiones Mach</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Santa Marta - Colombia
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:010-020-0340">3053309966</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:info@company.com">inversiones.mach24@gmail.com </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Informacion</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Sobre nosotros</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/inversionesmach/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                    <!--    li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
